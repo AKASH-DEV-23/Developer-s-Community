@@ -17,8 +17,9 @@ const app = express();
 // ✅ Allowed frontend origins
 app.use(cors({
   origin: ['https://developers-community-skfp.vercel.app',
-    'https://developer-s-community.vercel.app/'
+    'https://developer-s-community.vercel.app'
     ,
+    
     'http://localhost:8080'
   ],
   credentials: true  // if using cookies or tokens
